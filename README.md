@@ -33,29 +33,33 @@ cd Pyencoder
 
 ---
 
-## 💪 Usage
+## **1. Install Git and Python**
 
-### 📱 Mobile (Termux)
+
+- 📱 Termux (Android)
 
 ```bash
+pkg update
+pkg upgrade -y
 pkg install python git
-git clone https://github.com/ak-alien/Pyencoder
-cd Pyencoder
-python encoder.py
 ```
 
-### 🖥️ Windows
+- 🖥️ Windows
 
-```cmd
-cd path\to\Pyencoder
-python encoder.py
-```
+    - [Download and install Git](https://git-scm.com/download/win)
+    - [Download and install Python](https://www.python.org/downloads/windows/)
 
-### 🐧 Linux
+- 🐧 Linux
 
 ```bash
-cd path/to/pyencoder
-python3 encoder.py
+sudo apt update
+sudo apt install git python3 -y
+```
+
+### Run
+
+```bash
+python encoder.py
 ```
 
 ---
